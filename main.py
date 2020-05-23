@@ -11,6 +11,8 @@ def main():
         "pipeline_bug_step_1_text_to_las.json",
         "pipeline_bug_step_2_las_to_las.json",
         "pipeline_bug_step_3_las_to_text.json",
+        "pipeline_bug_single_point_step_1_text_to_las.json",
+        "pipeline_bug_single_point_step_2_las_to_las.json",
     ]
     for pipeline in pipelines:
         with open(pipeline) as pipeline_json:
