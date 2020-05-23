@@ -1,0 +1,14 @@
+{
+  "pipeline": [
+    {
+      "type": "readers.text",
+      "filename": "input/input.txt"
+    },
+    {
+      "type": "writers.text",
+      "order":"X,Y,Z,Classification",
+      "keep_unspecified":"false",
+      "filename": "output/baseline/text_to_text_output.txt"
+    }
+  ]
+}

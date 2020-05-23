@@ -1,0 +1,15 @@
+{
+  "pipeline": [
+    {
+      "type": "readers.text",
+      "filename": "input/input.txt"
+    },
+    {
+      "type": "writers.las",
+      "minor_version": "4",
+      "extra_dims": "all",
+      "compression": "laszip",
+      "filename": "output/ok/text_to_las_output.las"
+    }
+  ]
+}

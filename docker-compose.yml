@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  pdal_python:
+    image: pdal_python
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/app
+    command: python3 main.py
+    working_dir: /app

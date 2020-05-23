@@ -1,0 +1,14 @@
+{
+  "pipeline": [
+    {
+      "type": "readers.las",
+      "filename": "output/ok/text_to_las_output.las"
+    },
+    {
+      "type": "writers.text",
+      "order":"X,Y,Z,Classification,ClassFlags",
+      "keep_unspecified":"false",
+      "filename": "output/ok/las_to_text_output.txt"
+    }
+  ]
+}
